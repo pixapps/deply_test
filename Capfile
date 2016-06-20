@@ -6,11 +6,10 @@ require "capistrano/deploy"
 
 require 'capistrano/rbenv'
 set :rbenv_type, :user
-set :rbenv_ruby, '2.3.1-p112'
+set :rbenv_ruby, '2.3.1'
 
 require 'capistrano/bundler'
 require 'capistrano/rails'
-require 'capistrano/passenger'
 
 # Include tasks from other gems included in your Gemfile
 #
